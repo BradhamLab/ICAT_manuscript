@@ -1,0 +1,7 @@
+*.png
+*.svg
+*.h5ad
+**/results/**
+.ipynb_checkpoints
+.snakemake
+**figures/**

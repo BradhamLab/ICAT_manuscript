@@ -1,0 +1,33 @@
+{
+    "control_kwargs": {
+        "dispersion": "random",
+        "genes": 1500,
+        "p_marker": 0.01,
+        "pop_sizes": [
+            100,
+            100,
+            100
+        ],
+        "populations": 3,
+        "samples": 300,
+        "scalar": 100
+    },
+    "perturb_kwargs": {
+        "gene_targets": null,
+        "new_pop_cells": [
+            100,
+            100
+        ],
+        "new_pop_pmarker": 0.01,
+        "percent_perturb": 0.15000000000000002,
+        "pop_sizes": [
+            100,
+            100,
+            100
+        ],
+        "pop_targets": [
+            "1"
+        ],
+        "samples": 300
+    }
+}

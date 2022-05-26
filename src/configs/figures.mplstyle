@@ -1,0 +1,50 @@
+# larger lines and fonts for presentations
+font.family: sans-serif
+lines.color: 1E1E1E
+lines.linewidth: 4
+lines.markersize: 10
+lines.solid_capstyle: butt
+
+legend.frameon: false
+legend.fontsize: 18
+
+axes.labelsize: 28
+axes.labelweight: bold
+axes.axisbelow: true
+axes.grid: false
+axes.linewidth: 3.0
+axes.titlesize: 32
+axes.titleweight: bold
+axes.prop_cycle: cycler('color', ['FB4D3D', 'F3752B', 'A846A0', '32AE65', '0F5E3E', '72A1E5', '345995'])
+
+font.weight: bold
+
+patch.linewidth: 0.5
+
+svg.fonttype: path
+
+grid.linestyle: -
+grid.linewidth: 1.0
+
+xtick.major.size: 0
+xtick.minor.size: 0
+xtick.labelsize: 22
+ytick.major.size: 0
+ytick.minor.size: 0
+ytick.labelsize: 22
+
+font.size: 20.0
+
+figure.subplot.left: 0.08
+figure.subplot.right: 0.95
+figure.subplot.bottom: 0.07
+figure.subplot.wspace: 0.25
+figure.subplot.hspace: 0.25
+figure.figsize: 13.0, 8.0
+
+# boxplot params
+boxplot.flierprops.linewidth: 2.0
+boxplot.boxprops.linewidth: 2.0
+boxplot.capprops.linewidth: 2.0
+boxplot.medianprops.linewidth: 2.0
+boxplot.meanprops.linewidth: 2.0

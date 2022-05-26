@@ -1,0 +1,30 @@
+simulations:
+  json: "data/external/simulation_experiments.json"
+  sims: 15
+  reps: 1
+libraries:
+  seurat2.3.3: "/projectnb/bradham/RPackages"
+  lisi: "/projectnb/bradham/RPackages/3.6.2"
+  seurat3.1.1: "/projectnb/bradham/RPackages/3.6.2"
+  conda_env: "icat"
+params:
+  treatment:
+    Tian: "benchmark"
+    Kang: "stim"
+    Mann: "stim"
+    Kagohara: "treatment"
+  control:
+    Tian: "sc_celseq2"
+    Kang: "ctrl"
+    Mann: "Control"
+    Kagohara: "PBS"
+  label:
+    Tian: "mixture"
+    Kang: "cell_type"
+    Mann: "cell_type"
+    Kagohara: "cell"
+  subsample:
+    cells: [100, 250, 500, 750, 1000, 1500, 2000]
+
+
+

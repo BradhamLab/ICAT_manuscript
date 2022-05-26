@@ -1,0 +1,10 @@
+{"ncfs_kws": {"sigma": 3, "reg": 3,
+              "metric": "cityblock",
+              "alpha": 0.1, "eta": 0.001,
+              "kernel": "exponential"},
+"cluster_kws": {"resolution": 1},
+"neighbor_kws": {"n_neighbors": null},
+"reference": "controls",
+"subsample": true,
+"subsample_kws": {"by_cluster": false,
+                  "stratified": true}}

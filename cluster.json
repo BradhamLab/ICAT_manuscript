@@ -1,0 +1,64 @@
+{
+    "__default__": {
+        "error": "snake_error/",
+        "out": "snake_out/",
+        "project": "bradham",
+        "latency-wait": 15,
+        "processors": 4,
+        "memory": 4,
+        "runtime": "12:00:00",
+        "python": "/projectnb/bradham/PythonModules",
+        "gcc": "/share/pkg.7/gcc/8.1.0/install/lib64:/share/pkg.7/gcc/8.1.0/install/lib",
+        "cpus": "'broadwell|bulldozer|epyc|haswell|ivybridge|knl|nehalem|sandybridge|skylake'"
+    },
+    "time_ncfs": {
+        "processors": 8,
+        "memory": 8
+    },
+    "simulated_icat": {
+        "processors": 12,
+        "runtime": "02:00:00"
+    },
+    "test_subsample_simulated": {
+        "processors": 8,
+        "memory": 4
+    },
+    "evaluate_methods_simulated": {
+        "processors": 8
+    },
+    "plot_simulated_runs": {
+        "latency-wait": 30
+    },
+    "simulated_scanorama": {
+        "cpus": "'!bulldozer&!nehalem&!sandybridge&!ivybridge'"
+    },
+    "run_scanorama": {
+        "cpus": "'!bulldozer&!nehalem&!sandybridge&!ivybridge'"
+    },
+    "fit_real_data": {
+        "processors": 8,
+        "memory": 4
+    },
+    "run_icat": {
+        "processors": 8,
+        "memory": 4
+    },
+    "run_scanorama_icat": {
+        "processors": 4,
+        "memory": 32
+    },
+    "run_seurat_icat": {
+        "processors": 4,
+        "memory": 16
+    },
+    "evaluate_treatment_integration": {
+        "processors": 4
+    },
+    "dataset_integration": {
+        "processors": 8,
+        "memory": 8
+    },
+    "scanorama_smart_seq": {
+        "cpus": "'!bulldozer&!nehalem&!sandybridge&!ivybridge'"
+    }
+}
